@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  traefik:
+    image: pingfury.top:latest
+    container_name: pingfury-top
+    restart: always
+    ports:
+      - 8090:80
