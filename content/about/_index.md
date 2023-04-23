@@ -5,7 +5,6 @@ Hi, I'm pingfury, a python/golang Developer 🚀 from China, currently, I'm a de
   
 **Talking about Personal Stuffs:**
 
-- 👨🏽‍💻 I’m currently working on 西安;
 - 🌱 I’m currently learning golang and vue; 
 - 🤔 I’m looking for help with javascript;
 - 💬 Ask me about anything, I am happy to help;
