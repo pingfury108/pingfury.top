@@ -185,6 +185,11 @@ uglyURLs = false
     #    pre = "internal"
     #    post = "home"
     [[menu.main]]
+        url = "https://paste.pingfury.top/"
+        name = "paste"
+        wght = 8
+        #pre = "external"
+    [[menu.main]]
         url = "/posts/"
         name = "文章"
         weight = 2
