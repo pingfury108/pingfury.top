@@ -1,0 +1,46 @@
+---
+title: "Caddy Fs Minio"
+date: 2024-03-06T17:43:48+08:00
+---
+
+最近业务上有个需求: 想让前端项目自动构建，并部署。起初我的解决方案是 Nginx +  静态文件，然后打包为 Dockage Image, 每次发布更新 Image 就可以了。
+
+但这样每次更新 Image 每次都需要复制2次 20M(Image 大小), 很浪费带宽和存储，而且还要更新 k8s yaml。耗时耗力，想有个更优雅的方案。
+
+正好业务有现成 Minio, 想着将前端编译好的文件上传到 Minio 中，然后通过 Nginx 访问, 好像 Nginx 没有一个模块支持这个功能(可能是我没找到).
+
+搜索了一下，发现了这个项目 [[https://github.com/sagikazarmark/caddy-fs-s3][caddy-fs-s3]]，果然不是我一个人有这个需求。
+
+实践了一番，记录一下使用方法，以防忘记
+
+**** 编译插件(caddy)
+#+BEGIN_SRC shell
+caddy build  --with github.com/sagikazarmark/caddy-fs-s3
+#+END_SRC
+
+**** caddy 配置
+#+BEGIN_SRC
+example.com
+
+file_server {
+	fs s3 {
+		bucket mybucket
+		region us-east-1 # minio 随便填
+
+		# endpoint <endpoint>
+		# profile <profile>
+		# use_path_style
+	}
+}
+#+END_SRC
+
+**** 启动
+ 得先设置认证信息
+#+BEGIN_SRC shell
+  export AWS_ACCESS_KEY_ID=
+  export AWS_SECRET_ACCESS_KEY=
+  caddy run --config Caddyfile 
+#+END_SRC
+
+
+**** 完美解决
