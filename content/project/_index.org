@@ -1,0 +1,15 @@
+* [[https://img.pingfury.top/][img-fix]]
+
+一个从视频提取图片帧的小工具，不需要上传文件。
+
+* [[https://www.catfood.cc][catfood]]
+
+猫界的豆瓣，类似豆瓣的宠物食品评价，评分，分享的软件。
+
+* [[https://github.com/pingfury108/amap-find][amap-find]]
+
+自动抓取高德、腾讯、百度地图的商家名称和电话号码，以及企查查、天眼查的企业名称和电话的浏览器扩展，支持自动复制
+
+* [[https://github.com/pingfury108/MoneyProgress][MoneyProcess]]
+
+钱条，上班进度条
