@@ -1,0 +1,28 @@
+---
+title: "百度教育做题AI助手"
+date: 2025-01-012T13:48:10+08:00
+draft: false
+---
+
+百度教育兼职,数学题做题AI助手,浏览器插件,一键生成数学题解答,解析.
+
+#+CAPTION: baidu edu exp
+#+NAME:   baidu_edu_exp
+[[ /images/edu-exp/Snipaste_2025-01-08_01-51-41.png]]
+
+** 功能
+- AI生成答案
+- AI生成解析
+- 一键公式渲染
+- 字体,标点符号修正
+- 数学公式复制(复制后可编辑)
+- 文字识别(OCR)
+
+** 界面
+[[/images/edu-exp/edu-exp-ui.png]]
+
+** 购入方式
+- 咸鱼
+[[/images/edu-exp/Snipaste_2025-01-12_19-59-54.png]]
+- 微信
+[[/images/edu-exp/WechatIMG2.jpg]]

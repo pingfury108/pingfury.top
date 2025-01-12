@@ -13,3 +13,6 @@
 * [[https://github.com/pingfury108/MoneyProgress][MoneyProcess]]
 
 钱条，上班进度条
+
+** [[/project/baidu_edu_exp][百度教育兼职做题AI助手]]
+百度教育兼职,数学题做题AI助手,浏览器插件,一键生成数学题解答,解析.
