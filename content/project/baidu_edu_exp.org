@@ -20,9 +20,3 @@ draft: false
 
 ** 界面
 [[/images/edu-exp/edu-exp-ui.png]]
-
-** 购入方式
-- 咸鱼
-[[/images/edu-exp/Snipaste_2025-01-12_19-59-54.png]]
-- 微信
-[[/images/edu-exp/WechatIMG2.jpg]]
