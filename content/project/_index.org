@@ -2,7 +2,7 @@
 
 一个从视频提取图片帧的小工具，不需要上传文件。
 
-* [[https://www.catfood.cc][catfood]]
+* [[https://catfood.pingfury.top][catfood]]
 
 猫界的豆瓣，类似豆瓣的宠物食品评价，评分，分享的软件。
 
